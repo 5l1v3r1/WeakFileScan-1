@@ -70,7 +70,7 @@ def file_scan(domain_url):
     payloads = ["/robots.txt", "/README.md", "/crossdomain.xml", "/.git/config", "/.svn/entries", "/.svn/wc.db",
                 "/.DS_Store", "/CVS/Root", "/CVS/Entries", "/.idea/workspace.xml"]
     payloads += ["/index.htm", "/index.html", "/index.php", "/index.asp", "/index.aspx", "/index.jsp", "/index.do",
-                 "/index.action", "/index.phps", "/index.php~", "/.index.php", "/index.php.bak"]
+                 "/index.action", "/index.phps", "/index.php~", "/.index.php", "/index.php.bak", "/.index.php.swf", "/.index.php.swp"]
     payloads += ["/www/", "/console", "/web-console", "/web_console", "/jmx-console", "/jmx_console",
                  "/JMXInvokerServlet", "/invoker"]
     payloads += ["/index.bak", "/index.swp", "/index.old", "/.viminfo", "/.bash_history", "/.bashrc",
